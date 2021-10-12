@@ -21,7 +21,7 @@ if (! empty($_SESSION["member_id"])) {
 }
 // Check if loggedin session exists
 else if (! empty($_COOKIE["member_login"]) && ! empty($_COOKIE["random_password"]) && ! empty($_COOKIE["random_selector"])) {
-    // Initiate auth token verification diirective to false
+    // Initiate auth token verification directive to false
     $isPasswordVerified = false;
     $isSelectorVerified = false;
     $isExpiryDateVerified = false;
@@ -44,7 +44,7 @@ else if (! empty($_COOKIE["member_login"]) && ! empty($_COOKIE["random_password"
         $isExpiryDareVerified = true;
     }
     
-    // Redirect if all cookie based validation retuens true
+    // Redirect if all cookie based validation returns true
     // Else, mark the token as expired and clear cookies
     if (!empty($userToken[0]["id"]) && $isPasswordVerified && $isSelectorVerified && $isExpiryDareVerified) {
         $isLoggedIn = true;
