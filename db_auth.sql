@@ -28,6 +28,8 @@ INSERT INTO `members` (`member_id`, `member_name`, `member_password`, `member_em
 -- Table structure for table `tbl_token_auth`
 --
 
+
+
 CREATE TABLE `tbl_token_auth` (
   `id` int(11) NOT NULL,
   `username` varchar(255) NOT NULL,
@@ -37,6 +39,21 @@ CREATE TABLE `tbl_token_auth` (
   `expiry_date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+
+--
+-- Toinen lähde (parempi)
+--
+CREATE TABLE `auth_tokens` (
+    `id` integer(11) not null,
+    `selector` char(12),
+    `hashedValidator` varchar(255),
+    `userid` integer(11) not null,
+    `expires` datetime,
+    PRIMARY KEY (`id`)
+);
+
+ALTER TABLE `auth_tokens`
+  MODIFY `id` int(11) UNSIGNED AUTO_INCREMENT
 --
 -- Indexes for dumped tables
 --

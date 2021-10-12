@@ -25,9 +25,22 @@ else if (! empty($_COOKIE["member_login"]) && ! empty($_COOKIE["random_password"
     $isPasswordVerified = false;
     $isSelectorVerified = false;
     $isExpiryDateVerified = false;
+    $isAuthValidatorVerified = false;
+    $isAuthExpiryDateVerified = false;
+
     
     // Get token for username
     $userToken = $auth->getTokenByUsername($_COOKIE["member_login"],0);
+    if ($userAuthToken = $auth->getAuthTokenBySelector($_COOKIE["selector"])){
+        // Validate validator cookie with database
+        if (password_verify($_COOKIE["validator"], $userAuthToken[0]["hashedValidator"])) {
+        $isAuthValidatorVerified = true;
+        }
+         // check cookie expiration by date
+        if($userAuthToken[0]["expires"] >= $current_date) {
+        $isAuthExpiryDateVerified = true;
+        }
+        };
     
     // Validate random password cookie with database
     if (password_verify($_COOKIE["random_password"], $userToken[0]["password_hash"])) {
@@ -38,22 +51,27 @@ else if (! empty($_COOKIE["member_login"]) && ! empty($_COOKIE["random_password"
     if (password_verify($_COOKIE["random_selector"], $userToken[0]["selector_hash"])) {
         $isSelectorVerified = true;
     }
-    
+
     // check cookie expiration by date
     if($userToken[0]["expiry_date"] >= $current_date) {
-        $isExpiryDareVerified = true;
+        $isExpiryDateVerified = true;
     }
     
-    // Redirect if all cookie based validation returns true
-    // Else, mark the token as expired and clear cookies
-    if (!empty($userToken[0]["id"]) && $isPasswordVerified && $isSelectorVerified && $isExpiryDareVerified) {
-        $isLoggedIn = true;
-    } else {
+
+    if (!empty($userToken[0]["id"]) && $isPasswordVerified && $isSelectorVerified && $isExpiryDateVerified
+       && $isAuthValidatorVerified && $isAuthExpiryDateVerified ) {
+       $isLoggedIn = true;
+       } 
+    // Else, mark the token as expired and clear cookies   
+    else {
         if(!empty($userToken[0]["id"])) {
             $auth->markAsExpired($userToken[0]["id"]);
         }
+        if(!empty($userAuthToken[0]["id"])) {
+            $auth->deleteAuthToken($userToken[0]["id"]);
+        }
         // clear cookies
         $util->clearAuthCookie();
-    }
+        }
 }
 ?>

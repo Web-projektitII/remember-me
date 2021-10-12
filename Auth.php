@@ -15,6 +15,13 @@ class Auth {
 	    return $result;
     }
     
+    function getAuthTokenBySelector($selector) {
+        $db_handle = new DBController();
+        $query = "Select * from auth_tokens where selector = ?";
+        $result = $db_handle->runQuery($query, 's', array($selector));
+        return $result;
+    }
+        
     function markAsExpired($tokenId) {
         $db_handle = new DBController();
         $query = "UPDATE tbl_token_auth SET is_expired = ? WHERE id = ?";
@@ -25,8 +32,22 @@ class Auth {
     
     function insertToken($username, $random_password_hash, $random_selector_hash, $expiry_date) {
         $db_handle = new DBController();
-        $query = "INSERT INTO tbl_token_auth (username, password_hash, selector_hash, expiry_date) values (?, ?, ?,?)";
+        $query = "INSERT INTO tbl_token_auth (username, password_hash, selector_hash, expiry_date) values (?, ?, ?, ?)";
         $result = $db_handle->insert($query, 'ssss', array($username, $random_password_hash, $random_selector_hash, $expiry_date));
+        return $result;
+    }
+    
+    function insertAuthToken($userid,$hashedValidator,$selector,$expires){
+    $db_handle = new DBController();
+    $query = "INSERT INTO auth_tokens (userid,hashedValidator,selector,expires) values (?, ?, ?,?)";
+    $result = $db_handle->insert($query,'isss',array($userid,$hashedValidator,$selector,$expires));
+    return $result;
+    }
+
+    function deleteAuthToken($id) {
+        $db_handle = new DBController();
+        $query = "DELETE FROM auth_tokens WHERE id = ?";
+        $result = $db_handle->update($query, 'i', array($id));
         return $result;
     }
     

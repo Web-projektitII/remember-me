@@ -1,184 +1,424 @@
-2021-10-12 08:36:18 DBController::connectDB,database:db_auth
-2021-10-12 08:36:23 DBController::connectDB,database:db_auth
-2021-10-12 08:36:23 DBController::connectDB,database:db_auth
-2021-10-12 08:37:05 DBController::connectDB,database:db_auth
-2021-10-12 08:37:05 DBController::connectDB,database:db_auth
-2021-10-12 08:37:05 DBController::connectDB,database:db_auth
-2021-10-12 08:37:05 DBController::connectDB,database:db_auth
-2021-10-12 08:37:53 DBController::connectDB,database:db_auth
-2021-10-12 08:37:53 DBController::connectDB,database:db_auth
-2021-10-12 08:38:23 DBController::connectDB,database:db_auth
-2021-10-12 08:38:23 DBController::connectDB,database:db_auth
-2021-10-12 08:38:23 DBController::connectDB,database:db_auth
-2021-10-12 08:38:24 DBController::connectDB,database:db_auth
-2021-10-12 08:38:24 DBController::connectDB,database:db_auth
-2021-10-12 08:38:24 DBController::connectDB,database:db_auth
-2021-10-12 08:38:24 DBController::connectDB,database:db_auth
-2021-10-12 08:39:14 DBController::connectDB,database:db_auth
-2021-10-12 08:49:55 DBController::connectDB,conn:mysqli::__set_state(array(
-   'affected_rows' => NULL,
-   'client_info' => NULL,
-   'client_version' => NULL,
-   'connect_errno' => NULL,
-   'connect_error' => NULL,
-   'errno' => NULL,
-   'error' => NULL,
-   'error_list' => NULL,
-   'field_count' => NULL,
-   'host_info' => NULL,
-   'info' => NULL,
-   'insert_id' => NULL,
-   'server_info' => NULL,
-   'server_version' => NULL,
-   'stat' => NULL,
-   'sqlstate' => NULL,
-   'protocol_version' => NULL,
-   'thread_id' => NULL,
-   'warning_count' => NULL,
-))
-2021-10-12 08:49:55 DBController::connectDB,conn:mysqli::__set_state(array(
-   'affected_rows' => NULL,
-   'client_info' => NULL,
-   'client_version' => NULL,
-   'connect_errno' => NULL,
-   'connect_error' => NULL,
-   'errno' => NULL,
-   'error' => NULL,
-   'error_list' => NULL,
-   'field_count' => NULL,
-   'host_info' => NULL,
-   'info' => NULL,
-   'insert_id' => NULL,
-   'server_info' => NULL,
-   'server_version' => NULL,
-   'stat' => NULL,
-   'sqlstate' => NULL,
-   'protocol_version' => NULL,
-   'thread_id' => NULL,
-   'warning_count' => NULL,
-))
-2021-10-12 08:50:01 DBController::connectDB,conn:mysqli::__set_state(array(
-   'affected_rows' => NULL,
-   'client_info' => NULL,
-   'client_version' => NULL,
-   'connect_errno' => NULL,
-   'connect_error' => NULL,
-   'errno' => NULL,
-   'error' => NULL,
-   'error_list' => NULL,
-   'field_count' => NULL,
-   'host_info' => NULL,
-   'info' => NULL,
-   'insert_id' => NULL,
-   'server_info' => NULL,
-   'server_version' => NULL,
-   'stat' => NULL,
-   'sqlstate' => NULL,
-   'protocol_version' => NULL,
-   'thread_id' => NULL,
-   'warning_count' => NULL,
-))
-2021-10-12 08:50:01 DBController::connectDB,conn:mysqli::__set_state(array(
-   'affected_rows' => NULL,
-   'client_info' => NULL,
-   'client_version' => NULL,
-   'connect_errno' => NULL,
-   'connect_error' => NULL,
-   'errno' => NULL,
-   'error' => NULL,
-   'error_list' => NULL,
-   'field_count' => NULL,
-   'host_info' => NULL,
-   'info' => NULL,
-   'insert_id' => NULL,
-   'server_info' => NULL,
-   'server_version' => NULL,
-   'stat' => NULL,
-   'sqlstate' => NULL,
-   'protocol_version' => NULL,
-   'thread_id' => NULL,
-   'warning_count' => NULL,
-))
-2021-10-12 08:50:01 DBController::connectDB,conn:mysqli::__set_state(array(
-   'affected_rows' => NULL,
-   'client_info' => NULL,
-   'client_version' => NULL,
-   'connect_errno' => NULL,
-   'connect_error' => NULL,
-   'errno' => NULL,
-   'error' => NULL,
-   'error_list' => NULL,
-   'field_count' => NULL,
-   'host_info' => NULL,
-   'info' => NULL,
-   'insert_id' => NULL,
-   'server_info' => NULL,
-   'server_version' => NULL,
-   'stat' => NULL,
-   'sqlstate' => NULL,
-   'protocol_version' => NULL,
-   'thread_id' => NULL,
-   'warning_count' => NULL,
-))
-2021-10-12 08:50:01 DBController::connectDB,conn:mysqli::__set_state(array(
-   'affected_rows' => NULL,
-   'client_info' => NULL,
-   'client_version' => NULL,
-   'connect_errno' => NULL,
-   'connect_error' => NULL,
-   'errno' => NULL,
-   'error' => NULL,
-   'error_list' => NULL,
-   'field_count' => NULL,
-   'host_info' => NULL,
-   'info' => NULL,
-   'insert_id' => NULL,
-   'server_info' => NULL,
-   'server_version' => NULL,
-   'stat' => NULL,
-   'sqlstate' => NULL,
-   'protocol_version' => NULL,
-   'thread_id' => NULL,
-   'warning_count' => NULL,
-))
-2021-10-12 08:52:09 DBController::connectDB,conn:false
-2021-10-12 08:52:09 DBController::connectDB,conn:false
-2021-10-12 08:53:15 DBController::connectDB,conn:
-2021-10-12 08:53:15 DBController::connectDB,conn:
-2021-10-12 08:53:15 DBController::connectDB,conn:
-2021-10-12 09:07:15 DBController::connectDB,database:db_auth
-2021-10-12 09:07:15 DBController::connectDB,database:db_auth
-2021-10-12 09:07:15 DBController::connectDB,database:db_auth
-2021-10-12 09:08:34 DBController::connectDB,database:db_auth
-2021-10-12 09:08:34 DBController::connectDB,database:db_auth
-2021-10-12 09:08:34 DBController::connectDB,database:db_auth
-2021-10-12 09:08:34 DBController::connectDB,database:db_auth
-2021-10-12 09:08:54 DBController::connectDB,database:db_auth
-2021-10-12 09:08:57 DBController::connectDB,database:db_auth
-2021-10-12 09:09:30 DBController::connectDB,database:db_auth
-2021-10-12 09:09:30 DBController::connectDB,database:db_auth
-2021-10-12 09:09:43 DBController::connectDB,database:db_auth
-2021-10-12 09:09:43 DBController::connectDB,database:db_auth
-2021-10-12 09:09:43 DBController::connectDB,database:db_auth
-2021-10-12 09:09:43 DBController::connectDB,database:db_auth
-2021-10-12 09:09:43 DBController::connectDB,database:db_auth
-2021-10-12 09:09:43 DBController::connectDB,database:db_auth
-2021-10-12 09:09:43 DBController::connectDB,database:db_auth
-2021-10-12 09:11:26 DBController::connectDB,database:db_auth
-2021-10-12 09:11:26 DBController::connectDB,database:db_auth
-2021-10-12 09:11:41 DBController::connectDB,database:db_auth
-2021-10-12 09:11:41 DBController::connectDB,database:db_auth
-2021-10-12 09:18:32 DBController::connectDB,database:db_auth
-2021-10-12 09:18:32 DBController::connectDB,database:db_auth
-2021-10-12 09:18:32 DBController::connectDB,database:db_auth
-2021-10-12 09:18:32 DBController::connectDB,database:db_auth
-2021-10-12 09:18:58 DBController::connectDB,database:db_auth
-2021-10-12 09:18:58 DBController::connectDB,database:db_auth
-2021-10-12 09:18:58 DBController::connectDB,database:db_auth
-2021-10-12 09:52:15 DBController::connectDB,database:db_auth
-2021-10-12 09:52:15 DBController::connectDB,database:db_auth
-2021-10-12 09:52:15 DBController::connectDB,database:db_auth
-2021-10-12 09:52:15 DBController::connectDB,database:db_auth
-2021-10-12 09:52:16 DBController::connectDB,database:db_auth
-2021-10-12 09:52:16 DBController::connectDB,database:db_auth
-2021-10-12 09:52:16 DBController::connectDB,database:db_auth
+2021-10-12 13:36:25 asettamaton
+2021-10-12 13:36:52 asettamaton
+2021-10-12 13:36:52 asettamaton
+2021-10-12 13:37:38 asettamaton
+2021-10-12 13:37:46 asettamaton
+2021-10-12 13:37:46 asettamaton
+2021-10-12 16:04:04 asettamaton
+2021-10-12 16:04:18 asettamaton
+2021-10-12 16:04:19 asettamaton
+2021-10-12 16:04:41 asettamaton
+2021-10-12 16:04:49 asettamaton
+2021-10-12 16:34:10 asettamaton
+2021-10-12 16:34:10 asettamaton
+2021-10-12 16:34:35 asettamaton
+2021-10-12 16:34:44 asettamaton
+2021-10-12 16:35:27 asettamaton
+2021-10-12 16:35:27 s,array (
+  0 => 'admin',
+)
+2021-10-12 16:35:28 si,array (
+  0 => 'admin',
+  1 => 0,
+)
+2021-10-12 16:35:28 ii,array (
+  0 => 1,
+  1 => 39,
+)
+2021-10-12 16:35:28 ssss,array (
+  0 => 'admin',
+  1 => '$2y$10$Un0zuHnSAy26uCbc.9jt2O4rTPqiX188qpQknDEn/llu6L1z631Ae',
+  2 => '$2y$10$3QoDWqCKnw4FmV43wGhgr.1Gae6ifetagJjZ53oS9r3EVcpKdXt9i',
+  3 => '2021-11-11 15:35:27',
+)
+2021-10-12 16:35:28 ssss,array (
+  0 => 1,
+  1 => '$2y$10$8fTkl28jgg6LZTt9I1wR3.8d19UWQjxDdgw.a5o9KlHoatHf3XmoO',
+  2 => 'ZdkDkuMOYHGl',
+  3 => '2021-11-11 15:35:27',
+)
+2021-10-12 16:38:35 asettamaton
+2021-10-12 16:38:35 asettamaton
+2021-10-12 16:38:37 asettamaton
+2021-10-12 16:38:43 asettamaton
+2021-10-12 16:41:02 asettamaton
+2021-10-12 16:41:02 DBController::bindQueryParams,s,array (
+  0 => 'admin',
+)
+2021-10-12 16:41:02 DBController::bindQueryParams,si,array (
+  0 => 'admin',
+  1 => 0,
+)
+2021-10-12 16:41:02 DBController::bindQueryParams,ii,array (
+  0 => 1,
+  1 => 40,
+)
+2021-10-12 16:41:03 DBController::bindQueryParams,ssss,array (
+  0 => 'admin',
+  1 => '$2y$10$TNGUtdBuR44geGmWrB/Qx.y1navoiIkkuosrFIx.ewV8oEaoKIO7.',
+  2 => '$2y$10$9wSTt2ve.sYKd9LRa47lN.M/HkQgioJSk/3F0ndU5MCZFKgLKJu3K',
+  3 => '2021-11-11 15:41:02',
+)
+2021-10-12 16:41:03 DBController::bindQueryParams,ssss,array (
+  0 => 1,
+  1 => '$2y$10$DaDWB4bzHTGWzTfkwkka4eO2z2BE8S93TosLJPSf4.g2hh/qGLMeK',
+  2 => 'uncJ4ljyn28K',
+  3 => '2021-11-11 15:41:02',
+)
+2021-10-12 16:41:07 asettamaton
+2021-10-12 16:41:07 asettamaton
+2021-10-12 16:41:08 asettamaton
+2021-10-12 16:41:17 asettamaton
+2021-10-12 16:41:17 DBController::bindQueryParams,s,array (
+  0 => 'admin',
+)
+2021-10-12 16:41:17 DBController::bindQueryParams,si,array (
+  0 => 'admin',
+  1 => 0,
+)
+2021-10-12 16:41:17 DBController::bindQueryParams,ii,array (
+  0 => 1,
+  1 => 41,
+)
+2021-10-12 16:41:17 DBController::bindQueryParams,ssss,array (
+  0 => 'admin',
+  1 => '$2y$10$Pa9zF14iMO08IcEvHstEe.E9xFzM259b8b4MZTOUoentkULem2YYG',
+  2 => '$2y$10$8EfLazmkMVrPNmSw6z/M3uyHClQsyy3V0tLSRFuvug9HsLiCVvpBu',
+  3 => '2021-11-11 15:41:17',
+)
+2021-10-12 16:41:18 DBController::bindQueryParams,ssss,array (
+  0 => 1,
+  1 => '$2y$10$93I4RrYmXnzyTTw6LLr56uNAe1sHVFjaft2C5MpSmswMdoRvFfcva',
+  2 => 'FaCMD1NTdpAS',
+  3 => '2021-11-11 15:41:17',
+)
+2021-10-12 16:43:01 asettamaton
+2021-10-12 16:43:01 asettamaton
+2021-10-12 16:43:03 asettamaton
+2021-10-12 16:43:13 asettamaton
+2021-10-12 16:43:13 DBController::bindQueryParams,s,array (
+  0 => 'admin',
+)
+2021-10-12 16:43:13 DBController::bindQueryParams,si,array (
+  0 => 'admin',
+  1 => 0,
+)
+2021-10-12 16:43:13 DBController::update,UPDATE tbl_token_auth SET is_expired = ? WHERE id = ?
+2021-10-12 16:43:13 DBController::bindQueryParams,ii,array (
+  0 => 1,
+  1 => 42,
+)
+2021-10-12 16:43:14 DBController::bindQueryParams,ssss,array (
+  0 => 'admin',
+  1 => '$2y$10$4lWfJubOcIuwcXKeBMb6re.bg3kWeueCcv8sruO8.YSQfRAKzbnb6',
+  2 => '$2y$10$rENZewnvJNYpHTHCtIzhquYfTf8Xa.3H2zdPHLyBTvn4vKIJ8.axi',
+  3 => '2021-11-11 15:43:13',
+)
+2021-10-12 16:43:14 DBController::bindQueryParams,ssss,array (
+  0 => 1,
+  1 => '$2y$10$gDN7AHbzBlgm2SpwNbfhRuQ2A9OmqnqpEoAYQdOZ2BvSmRIuJSFGW',
+  2 => 'fhXw7o7zP8Sq',
+  3 => '2021-11-11 15:43:13',
+)
+2021-10-12 16:48:55 asettamaton
+2021-10-12 16:48:55 asettamaton
+2021-10-12 16:48:56 asettamaton
+2021-10-12 16:49:04 asettamaton
+2021-10-12 16:49:04 DBController::bindQueryParams,s,array (
+  0 => 'admin',
+)
+2021-10-12 16:49:05 DBController::bindQueryParams,si,array (
+  0 => 'admin',
+  1 => 0,
+)
+2021-10-12 16:49:05 DBController::update,UPDATE tbl_token_auth SET is_expired = ? WHERE id = ?
+2021-10-12 16:49:05 DBController::bindQueryParams,ii,array (
+  0 => 1,
+  1 => 43,
+)
+2021-10-12 16:49:05 DBController::insert,INSERT INTO tbl_token_auth (username, password_hash, selector_hash, expiry_date) values (?, ?, ?,?),ssss,array (
+  0 => 'admin',
+  1 => '$2y$10$5unwoUiHQLB1l.c5S7ZNnuBRtkMSPYZDn.OyDBRZtbeKjFDui3THe',
+  2 => '$2y$10$R6I8B53DsUfkJuqX1ouv4.06g/PPHYwJR1LPSVjIVVy9TYx95vVra',
+  3 => '2021-11-11 15:49:04',
+)
+2021-10-12 16:49:05 DBController::bindQueryParams,ssss,array (
+  0 => 'admin',
+  1 => '$2y$10$5unwoUiHQLB1l.c5S7ZNnuBRtkMSPYZDn.OyDBRZtbeKjFDui3THe',
+  2 => '$2y$10$R6I8B53DsUfkJuqX1ouv4.06g/PPHYwJR1LPSVjIVVy9TYx95vVra',
+  3 => '2021-11-11 15:49:04',
+)
+2021-10-12 16:49:05 DBController::insert,INSERT INTO auth_tokens (username,hashedValidator,selector,expires),ssss,array (
+  0 => 1,
+  1 => '$2y$10$vLwtnfQ3aQS8joPUCBuH5.CMxaK8nXejUsGolgcfT3uO8mFfyN.am',
+  2 => 'i0VRyxYzzPBy',
+  3 => '2021-11-11 15:49:04',
+)
+2021-10-12 16:49:05 DBController::bindQueryParams,ssss,array (
+  0 => 1,
+  1 => '$2y$10$vLwtnfQ3aQS8joPUCBuH5.CMxaK8nXejUsGolgcfT3uO8mFfyN.am',
+  2 => 'i0VRyxYzzPBy',
+  3 => '2021-11-11 15:49:04',
+)
+2021-10-12 16:52:05 asettamaton
+2021-10-12 16:52:05 asettamaton
+2021-10-12 16:52:07 asettamaton
+2021-10-12 16:52:15 asettamaton
+2021-10-12 16:52:15 DBController::bindQueryParams,s,array (
+  0 => 'admin',
+)
+2021-10-12 16:52:15 DBController::bindQueryParams,si,array (
+  0 => 'admin',
+  1 => 0,
+)
+2021-10-12 16:52:15 DBController::update,UPDATE tbl_token_auth SET is_expired = ? WHERE id = ?
+2021-10-12 16:52:15 DBController::bindQueryParams,ii,array (
+  0 => 1,
+  1 => 44,
+)
+2021-10-12 16:52:15 DBController::insert,INSERT INTO tbl_token_auth (username, password_hash, selector_hash, expiry_date) values (?, ?, ?,?),ssss,array (
+  0 => 'admin',
+  1 => '$2y$10$/V57O6fM2tBw7.QCJz9IDuvnouzSbe30qTOmiTjoeso4ZUsytbtRe',
+  2 => '$2y$10$goydH.XQlzuzSJTKygs31.qxcpcQ/B5zXHMj/2v7An3Pn9QmC08OG',
+  3 => '2021-11-11 15:52:15',
+)
+2021-10-12 16:52:15 DBController::bindQueryParams,ssss,array (
+  0 => 'admin',
+  1 => '$2y$10$/V57O6fM2tBw7.QCJz9IDuvnouzSbe30qTOmiTjoeso4ZUsytbtRe',
+  2 => '$2y$10$goydH.XQlzuzSJTKygs31.qxcpcQ/B5zXHMj/2v7An3Pn9QmC08OG',
+  3 => '2021-11-11 15:52:15',
+)
+2021-10-12 16:52:15 DBController::insert,INSERT INTO auth_tokens (userid,hashedValidator,selector,expires),ssss,array (
+  0 => 1,
+  1 => '$2y$10$l7XZVm227keQbFDCp2piuu4KR1mwEHuTvqPAt8ewkyxVy4yw6kf4O',
+  2 => 'veRosQnsCTwT',
+  3 => '2021-11-11 15:52:15',
+)
+2021-10-12 16:52:15 DBController::bindQueryParams,ssss,array (
+  0 => 1,
+  1 => '$2y$10$l7XZVm227keQbFDCp2piuu4KR1mwEHuTvqPAt8ewkyxVy4yw6kf4O',
+  2 => 'veRosQnsCTwT',
+  3 => '2021-11-11 15:52:15',
+)
+2021-10-12 16:59:30 asettamaton
+2021-10-12 16:59:30 asettamaton
+2021-10-12 16:59:32 asettamaton
+2021-10-12 16:59:39 asettamaton
+2021-10-12 16:59:39 DBController::bindQueryParams,s,array (
+  0 => 'admin',
+)
+2021-10-12 16:59:40 DBController::bindQueryParams,si,array (
+  0 => 'admin',
+  1 => 0,
+)
+2021-10-12 16:59:40 DBController::update,UPDATE tbl_token_auth SET is_expired = ? WHERE id = ?
+2021-10-12 16:59:40 DBController::bindQueryParams,ii,array (
+  0 => 1,
+  1 => 45,
+)
+2021-10-12 16:59:40 DBController::insert,INSERT INTO tbl_token_auth (username, password_hash, selector_hash, expiry_date) values (?, ?, ?,?),ssss,array (
+  0 => 'admin',
+  1 => '$2y$10$fSTqrna5lp7hHf2wsw/4EurPI6jKQIVnqccHWq7VCKo8kDHeo57fK',
+  2 => '$2y$10$AxOyTiANgO7ciTRgmDS38OCo3lAbNAQteyZJcFFovyVPMlBsojwj6',
+  3 => '2021-11-11 15:59:39',
+)
+2021-10-12 16:59:40 DBController::bindQueryParams,ssss,array (
+  0 => 'admin',
+  1 => '$2y$10$fSTqrna5lp7hHf2wsw/4EurPI6jKQIVnqccHWq7VCKo8kDHeo57fK',
+  2 => '$2y$10$AxOyTiANgO7ciTRgmDS38OCo3lAbNAQteyZJcFFovyVPMlBsojwj6',
+  3 => '2021-11-11 15:59:39',
+)
+2021-10-12 16:59:40 DBController::insert,INSERT INTO auth_tokens (userid,hashedValidator,selector,expires),isss,array (
+  0 => 1,
+  1 => '$2y$10$2MMp9nbA2OJmqPolfqNdqOFxxCXrCeSba25ZDZf652mDnLSZGFzme',
+  2 => 'CUtF0EQxd0Cw',
+  3 => '2021-11-11 15:59:39',
+)
+2021-10-12 16:59:40 DBController::bindQueryParams,isss,array (
+  0 => 1,
+  1 => '$2y$10$2MMp9nbA2OJmqPolfqNdqOFxxCXrCeSba25ZDZf652mDnLSZGFzme',
+  2 => 'CUtF0EQxd0Cw',
+  3 => '2021-11-11 15:59:39',
+)
+2021-10-12 17:04:33 asettamaton
+2021-10-12 17:04:33 asettamaton
+2021-10-12 17:04:35 asettamaton
+2021-10-12 17:04:50 asettamaton
+2021-10-12 17:04:50 DBController::bindQueryParams,s,array (
+  0 => 'admin',
+)
+2021-10-12 17:04:51 DBController::bindQueryParams,si,array (
+  0 => 'admin',
+  1 => 0,
+)
+2021-10-12 17:04:51 DBController::update,UPDATE tbl_token_auth SET is_expired = ? WHERE id = ?
+2021-10-12 17:04:51 DBController::bindQueryParams,ii,array (
+  0 => 1,
+  1 => 46,
+)
+2021-10-12 17:06:04 asettamaton
+2021-10-12 17:06:04 asettamaton
+2021-10-12 17:06:06 asettamaton
+2021-10-12 17:06:41 asettamaton
+2021-10-12 17:06:41 DBController::bindQueryParams,s,array (
+  0 => 'admin',
+)
+2021-10-12 17:06:41 DBController::bindQueryParams,si,array (
+  0 => 'admin',
+  1 => 0,
+)
+2021-10-12 17:06:41 mysqli
+2021-10-12 17:06:41 DBController::insert,INSERT INTO tbl_token_auth (username, password_hash, selector_hash, expiry_date) values (?, ?, ?,?),ssss,array (
+  0 => 'admin',
+  1 => '$2y$10$CdP8DYYhgS8V6WAA/nKUme0TCg9PpHBE34j2869LKXdRdaaGa0QvO',
+  2 => '$2y$10$tN6E6EXhAZl7I7oJ/z2AW.h3Nbqp956dshYf7lpNdoQiNOj1bR4Yq',
+  3 => '2021-11-11 16:06:41',
+)
+2021-10-12 17:06:41 DBController::bindQueryParams,ssss,array (
+  0 => 'admin',
+  1 => '$2y$10$CdP8DYYhgS8V6WAA/nKUme0TCg9PpHBE34j2869LKXdRdaaGa0QvO',
+  2 => '$2y$10$tN6E6EXhAZl7I7oJ/z2AW.h3Nbqp956dshYf7lpNdoQiNOj1bR4Yq',
+  3 => '2021-11-11 16:06:41',
+)
+2021-10-12 17:06:41 mysqli
+2021-10-12 17:06:41 DBController::insert,INSERT INTO auth_tokens (userid,hashedValidator,selector,expires),isss,array (
+  0 => 1,
+  1 => '$2y$10$p0SXVr89qjUnVJmv419d/Oh9vmya4JeftsRLYmduXkv9tSj6Js6Ee',
+  2 => 'SDwoAiuzmH5a',
+  3 => '2021-11-11 16:06:41',
+)
+2021-10-12 17:06:41 DBController::bindQueryParams,isss,array (
+  0 => 1,
+  1 => '$2y$10$p0SXVr89qjUnVJmv419d/Oh9vmya4JeftsRLYmduXkv9tSj6Js6Ee',
+  2 => 'SDwoAiuzmH5a',
+  3 => '2021-11-11 16:06:41',
+)
+2021-10-12 17:14:00 asettamaton
+2021-10-12 17:14:00 asettamaton
+2021-10-12 17:14:03 asettamaton
+2021-10-12 17:14:11 asettamaton
+2021-10-12 17:14:11 DBController::bindQueryParams,s,array (
+  0 => 'admin',
+)
+2021-10-12 17:14:12 DBController::bindQueryParams,si,array (
+  0 => 'admin',
+  1 => 0,
+)
+2021-10-12 17:14:12 DBController::update,UPDATE tbl_token_auth SET is_expired = ? WHERE id = ?
+2021-10-12 17:14:12 DBController::bindQueryParams,ii,array (
+  0 => 1,
+  1 => 47,
+)
+2021-10-12 17:14:12 sql
+2021-10-12 17:14:12 DBController::insert,INSERT INTO tbl_token_auth (username, password_hash, selector_hash, expiry_date) values (?, ?, ?,?),ssss,array (
+  0 => 'admin',
+  1 => '$2y$10$Zu/UoF15CYiiS0XeaWsaG.mJfpeQ3Hc9vB30IQOROiMeL7nMtk.5O',
+  2 => '$2y$10$Hh2a96A8OPCp74gmUHk8yO39/VKXw8tMxz.QeoX9wyyQrMXIAiCXK',
+  3 => '2021-11-11 16:14:11',
+)
+2021-10-12 17:14:12 DBController::bindQueryParams,ssss,array (
+  0 => 'admin',
+  1 => '$2y$10$Zu/UoF15CYiiS0XeaWsaG.mJfpeQ3Hc9vB30IQOROiMeL7nMtk.5O',
+  2 => '$2y$10$Hh2a96A8OPCp74gmUHk8yO39/VKXw8tMxz.QeoX9wyyQrMXIAiCXK',
+  3 => '2021-11-11 16:14:11',
+)
+2021-10-12 17:14:12 sql
+2021-10-12 17:14:12 DBController::insert,INSERT INTO auth_tokens (userid,hashedValidator,selector,expires),isss,array (
+  0 => 1,
+  1 => '$2y$10$fL48683ThJ2v.PWQpIk6C.MP.4xdUpX3aXTtkheGQgS5tpm3/kfkS',
+  2 => '8xxOzSw7KzE4',
+  3 => '2021-11-11 16:14:11',
+)
+2021-10-12 17:14:12 DBController::bindQueryParams,isss,array (
+  0 => 1,
+  1 => '$2y$10$fL48683ThJ2v.PWQpIk6C.MP.4xdUpX3aXTtkheGQgS5tpm3/kfkS',
+  2 => '8xxOzSw7KzE4',
+  3 => '2021-11-11 16:14:11',
+)
+2021-10-12 17:24:38 asettamaton
+2021-10-12 17:24:38 asettamaton
+2021-10-12 17:24:40 asettamaton
+2021-10-12 17:24:47 asettamaton
+2021-10-12 17:24:47 DBController::bindQueryParams,s,array (
+  0 => 'admin',
+)
+2021-10-12 17:24:48 DBController::bindQueryParams,si,array (
+  0 => 'admin',
+  1 => 0,
+)
+2021-10-12 17:24:48 DBController::update,UPDATE tbl_token_auth SET is_expired = ? WHERE id = ?
+2021-10-12 17:24:48 DBController::bindQueryParams,ii,array (
+  0 => 1,
+  1 => 48,
+)
+2021-10-12 17:24:48 sql
+2021-10-12 17:24:48 DBController::insert,INSERT INTO tbl_token_auth (username, password_hash, selector_hash, expiry_date) values (?, ?, ?, ?),ssss,array (
+  0 => 'admin',
+  1 => '$2y$10$muFIPn97LZc8EkxdTr2JZO6LRaa0I/0BxFTA2qRVHStB/UvTfzGUG',
+  2 => '$2y$10$kjPrXpuDYZaLcASqwx1prubZChYUwzzWW98dBO7I9SEpzkV4NG6Qa',
+  3 => '2021-11-11 16:24:47',
+)
+2021-10-12 17:24:48 DBController::bindQueryParams,ssss,array (
+  0 => 'admin',
+  1 => '$2y$10$muFIPn97LZc8EkxdTr2JZO6LRaa0I/0BxFTA2qRVHStB/UvTfzGUG',
+  2 => '$2y$10$kjPrXpuDYZaLcASqwx1prubZChYUwzzWW98dBO7I9SEpzkV4NG6Qa',
+  3 => '2021-11-11 16:24:47',
+)
+2021-10-12 17:24:48 sql
+2021-10-12 17:24:48 DBController::insert,INSERT INTO auth_tokens (userid,hashedValidator,selector,expires) values (?, ?, ?,?),isss,array (
+  0 => 1,
+  1 => '$2y$10$W//nEvFlhaoi5xhbf.BfcuhY5RQPLKiEQRXLnuA0trDr.Llf5uhQm',
+  2 => 'Qufr600mjMaN',
+  3 => '2021-11-11 16:24:47',
+)
+2021-10-12 17:24:48 DBController::bindQueryParams,isss,array (
+  0 => 1,
+  1 => '$2y$10$W//nEvFlhaoi5xhbf.BfcuhY5RQPLKiEQRXLnuA0trDr.Llf5uhQm',
+  2 => 'Qufr600mjMaN',
+  3 => '2021-11-11 16:24:47',
+)
+2021-10-12 17:24:48 asettamaton
+2021-10-12 17:25:16 asettamaton
+2021-10-12 17:25:27 asettamaton
+2021-10-12 17:25:27 DBController::bindQueryParams,s,array (
+  0 => 'admin',
+)
+2021-10-12 17:25:28 DBController::bindQueryParams,si,array (
+  0 => 'admin',
+  1 => 0,
+)
+2021-10-12 17:25:28 DBController::update,UPDATE tbl_token_auth SET is_expired = ? WHERE id = ?
+2021-10-12 17:25:28 DBController::bindQueryParams,ii,array (
+  0 => 1,
+  1 => 49,
+)
+2021-10-12 17:25:28 sql
+2021-10-12 17:25:28 DBController::insert,INSERT INTO tbl_token_auth (username, password_hash, selector_hash, expiry_date) values (?, ?, ?, ?),ssss,array (
+  0 => 'admin',
+  1 => '$2y$10$V33GYRBAt9JgfX3RSf/ENOUGmpYdgwTjrLPmx2cMBDvBloQ3s2F0e',
+  2 => '$2y$10$D1ygFwNayW04bLWMl7UF8OwxYLWpLnP9f2Km5oaDFiXqHGm94HAY6',
+  3 => '2021-11-11 16:25:27',
+)
+2021-10-12 17:25:28 DBController::bindQueryParams,ssss,array (
+  0 => 'admin',
+  1 => '$2y$10$V33GYRBAt9JgfX3RSf/ENOUGmpYdgwTjrLPmx2cMBDvBloQ3s2F0e',
+  2 => '$2y$10$D1ygFwNayW04bLWMl7UF8OwxYLWpLnP9f2Km5oaDFiXqHGm94HAY6',
+  3 => '2021-11-11 16:25:27',
+)
+2021-10-12 17:25:28 sql
+2021-10-12 17:25:28 DBController::insert,INSERT INTO auth_tokens (userid,hashedValidator,selector,expires) values (?, ?, ?,?),isss,array (
+  0 => 1,
+  1 => '$2y$10$AZFQI1fKnOQe0TcFNY/T7eH/klff0oQJ8LWRftVUSy1UmKFuc1Lz.',
+  2 => 'aYEc7F25Ft3i',
+  3 => '2021-11-11 16:25:27',
+)
+2021-10-12 17:25:28 DBController::bindQueryParams,isss,array (
+  0 => 1,
+  1 => '$2y$10$AZFQI1fKnOQe0TcFNY/T7eH/klff0oQJ8LWRftVUSy1UmKFuc1Lz.',
+  2 => 'aYEc7F25Ft3i',
+  3 => '2021-11-11 16:25:27',
+)
+2021-10-12 17:25:28 asettamaton
+2021-10-12 17:25:31 asettamaton
+2021-10-12 17:25:31 asettamaton
+2021-10-12 17:25:35 asettamaton

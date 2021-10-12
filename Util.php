@@ -4,8 +4,8 @@ class Util {
     {
         $token = "";
         $codeAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        $codeAlphabet .= "abcdefghijklmnopqrstuvwxyz";
-        $codeAlphabet .= "0123456789";
+        $codeAlphabet.= "abcdefghijklmnopqrstuvwxyz";
+        $codeAlphabet.= "0123456789";
         $max = strlen($codeAlphabet) - 1;
         for ($i = 0; $i < $length; $i ++) {
             $token .= $codeAlphabet[$this->cryptoRandSecure(0, $max)];
@@ -13,8 +13,7 @@ class Util {
         return $token;
     }
     
-    public function cryptoRandSecure($min, $max)
-    {
+    public function cryptoRandSecure($min, $max){
         $range = $max - $min;
         if ($range < 1) {
             return $min; // not so random...
@@ -45,6 +44,13 @@ class Util {
         if (isset($_COOKIE["random_selector"])) {
             setcookie("random_selector", "");
         }
+        if (isset($_COOKIE["selector"])) {
+            setcookie("selector", "");
+        }
+        if (isset($_COOKIE["validator"])) {
+            setcookie("validator", "");
+        }
+
     }
 }
 ?>
