@@ -30,8 +30,9 @@ class Auth {
         return $result;
     }
     
-    function update($query) {
-        mysqli_query($this->conn,$query);
-    }
+    /* Tämä näyttää olevan väärässä luokassa */
+    /* function update($query) {
+         mysqli_query($this->conn,$query);
+    }*/
 }
 ?>

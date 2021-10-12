@@ -6,6 +6,7 @@ require_once "Util.php";
 //setcookie($name,$value,$expire,$path,$domain,$secure,$httponly)
 
 $auth = new Auth();
+/* Huom: db_handle on DBController-objekti, ei mysqli-objekti */
 $db_handle = new DBController();
 $util = new Util();
 
