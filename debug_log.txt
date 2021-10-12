@@ -122,3 +122,147 @@
 )
 2021-10-12 18:17:42 asettamaton
 2021-10-12 18:17:48 asettamaton
+2021-10-12 18:27:17 asettamaton
+2021-10-12 18:27:17 DBController::bindQueryParams,si,array (
+  0 => 'admin',
+  1 => 0,
+)
+2021-10-12 18:27:17 DBController::bindQueryParams,s,array (
+  0 => NULL,
+)
+2021-10-12 18:27:17 DBController::bindQueryParams,ii,array (
+  0 => 1,
+  1 => 54,
+)
+2021-10-12 18:43:26 asettamaton
+2021-10-12 18:43:31 asettamaton
+2021-10-12 18:43:31 DBController::bindQueryParams,s,array (
+  0 => 'admin',
+)
+2021-10-12 18:43:32 DBController::bindQueryParams,i,array (
+  0 => 1,
+)
+2021-10-12 18:43:32 DBController::bindQueryParams,isss,array (
+  0 => 1,
+  1 => '$2y$10$6oTlsPl.Z/WXXz0KVYoPJ.SxXjJeS.OU1n.EAC.mq1AiCq2MLc81e',
+  2 => 'WbxOLO6rtcjE',
+  3 => '2021-11-11 17:43:31',
+)
+2021-10-12 18:43:32 asettamaton
+2021-10-12 18:43:34 asettamaton
+2021-10-12 18:44:02 asettamaton
+2021-10-12 18:44:02 DBController::bindQueryParams,s,array (
+  0 => 'admin',
+)
+2021-10-12 18:44:02 DBController::bindQueryParams,i,array (
+  0 => 1,
+)
+2021-10-12 18:44:02 DBController::bindQueryParams,isss,array (
+  0 => 1,
+  1 => '$2y$10$FaE1Gm8V1uC68OQElbKVdeJcLaAmfvbwZM2zqL8t6qqj2tM4DxsIy',
+  2 => 'P7jxHKGxlBEc',
+  3 => '2021-11-11 17:44:02',
+)
+2021-10-12 18:44:02 asettamaton
+2021-10-12 18:44:04 asettamaton
+2021-10-12 18:44:10 asettamaton
+2021-10-12 18:44:10 DBController::bindQueryParams,s,array (
+  0 => 'admin',
+)
+2021-10-12 18:44:11 DBController::bindQueryParams,i,array (
+  0 => 1,
+)
+2021-10-12 18:44:11 asettamaton
+2021-10-12 18:44:12 asettamaton
+2021-10-12 18:44:30 asettamaton
+2021-10-12 18:44:30 asettamaton
+2021-10-12 18:44:35 asettamaton
+2021-10-12 18:44:53 asettamaton
+2021-10-12 18:44:53 DBController::bindQueryParams,s,array (
+  0 => 'admin',
+)
+2021-10-12 18:52:52 asettamaton
+2021-10-12 18:52:52 DBController::bindQueryParams,s,array (
+  0 => 'admin',
+)
+2021-10-12 18:52:55 asettamaton
+2021-10-12 18:52:55 DBController::bindQueryParams,s,array (
+  0 => 'admin',
+)
+2021-10-12 18:53:04 asettamaton
+2021-10-12 18:53:04 DBController::bindQueryParams,s,array (
+  0 => 'admin',
+)
+2021-10-12 18:53:11 asettamaton
+2021-10-12 18:53:11 DBController::bindQueryParams,s,array (
+  0 => 'admin',
+)
+2021-10-12 18:53:11 DBController::bindQueryParams,i,array (
+  0 => 1,
+)
+2021-10-12 18:53:11 asettamaton
+2021-10-12 18:53:13 asettamaton
+2021-10-12 18:53:21 asettamaton
+2021-10-12 18:53:21 DBController::bindQueryParams,s,array (
+  0 => 'admin',
+)
+2021-10-12 18:53:21 DBController::bindQueryParams,i,array (
+  0 => 1,
+)
+2021-10-12 18:53:21 DBController::bindQueryParams,isss,array (
+  0 => 1,
+  1 => '$2y$10$v5ZsH41YA/BAropVd04WxeAxXKSIVFKmve155CxBz/e6kHn9HuYja',
+  2 => 'RDkD8Gs1iFtF',
+  3 => '2021-11-11 17:53:21',
+)
+2021-10-12 18:53:21 asettamaton
+2021-10-12 18:53:25 asettamaton
+2021-10-12 18:53:25 asettamaton
+2021-10-12 18:53:28 asettamaton
+2021-10-12 18:53:31 asettamaton
+2021-10-12 18:53:31 asettamaton
+2021-10-12 18:54:02 asettamaton
+2021-10-12 18:54:02 DBController::bindQueryParams,s,array (
+  0 => 'admin',
+)
+2021-10-12 18:54:02 DBController::bindQueryParams,i,array (
+  0 => 1,
+)
+2021-10-12 18:54:02 DBController::bindQueryParams,isss,array (
+  0 => 1,
+  1 => '$2y$10$CLXZyYCkPFxI6kiJAfrkoeSMxaESyir/9O7DHL6Rv4eFCrvY90r.O',
+  2 => 'cBkGWbguuB8P',
+  3 => '2021-11-11 17:54:02',
+)
+2021-10-12 18:54:02 asettamaton
+2021-10-12 18:54:04 asettamaton
+2021-10-12 18:56:38 asettamaton
+2021-10-12 18:56:38 DBController::bindQueryParams,s,array (
+  0 => 'admin',
+)
+2021-10-12 18:56:38 DBController::bindQueryParams,i,array (
+  0 => 1,
+)
+2021-10-12 18:56:38 DBController::bindQueryParams,isss,array (
+  0 => 1,
+  1 => '$2y$10$T/gRaGU2LI3DLY5NJ3zt8.xqoTrcTa7iuTA3JYhKFx1bQw0FvZXEq',
+  2 => 'JFjAYxJvjvm6',
+  3 => '2021-11-11 17:56:38',
+)
+2021-10-12 18:56:38 asettamaton
+2021-10-12 18:56:40 asettamaton
+2021-10-12 18:56:40 DBController::bindQueryParams,s,array (
+  0 => 'JFjAYxJvjvm6',
+)
+2021-10-12 18:56:40 asettamaton
+2021-10-12 18:56:40 DBController::bindQueryParams,s,array (
+  0 => 'JFjAYxJvjvm6',
+)
+2021-10-12 18:56:42 asettamaton
+2021-10-12 18:56:42 DBController::bindQueryParams,s,array (
+  0 => 'JFjAYxJvjvm6',
+)
+2021-10-12 18:56:42 asettamaton
+2021-10-12 18:56:42 DBController::bindQueryParams,s,array (
+  0 => 'JFjAYxJvjvm6',
+)

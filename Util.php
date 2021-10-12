@@ -35,7 +35,7 @@ class Util {
     }
     
     public function clearAuthCookie() {
-        if (isset($_COOKIE["member_login"])) {
+        /*if (isset($_COOKIE["member_login"])) {
             setcookie("member_login", "");
         }
         if (isset($_COOKIE["random_password"])) {
@@ -43,7 +43,7 @@ class Util {
         }
         if (isset($_COOKIE["random_selector"])) {
             setcookie("random_selector", "");
-        }
+        }*/
         if (isset($_COOKIE["selector"])) {
             setcookie("selector", "");
         }

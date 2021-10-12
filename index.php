@@ -50,35 +50,35 @@ if (! empty($_POST["login"])) {
         // Set Auth Cookies if 'Remember Me' checked
         if (! empty($_POST["remember"])) {
             /* setcookie($name,$value,$expire,$path,$domain,$secure,$httponly) */
-            setcookie("member_login",$username,$cookie_expiration_time,NULL,NULL,true,true);
+            //setcookie("member_login",$username,$cookie_expiration_time,NULL,NULL,true,true);
             
-            $random_password = $util->getToken(16);
+            //$random_password = $util->getToken(16);
             $validator = $util->getToken(16);
-            setcookie("random_password",$random_password,$cookie_expiration_time,NULL,NULL,true,true);
+            //setcookie("random_password",$random_password,$cookie_expiration_time,NULL,NULL,true,true);
             setcookie("validator",$validator,$cookie_expiration_time,NULL,NULL,true,true);
             
-            $random_selector = $util->getToken(32);
+            //$random_selector = $util->getToken(32);
             $selector = $util->getToken(12);
-            setcookie("random_selector",$random_selector,$cookie_expiration_time,NULL,NULL,true,true);
+            //setcookie("random_selector",$random_selector,$cookie_expiration_time,NULL,NULL,true,true);
             setcookie("selector",$selector,$cookie_expiration_time,NULL,NULL,true,true);
             
-            $random_password_hash = password_hash($random_password, PASSWORD_DEFAULT);
-            $random_selector_hash = password_hash($random_selector, PASSWORD_DEFAULT);
+            //$random_password_hash = password_hash($random_password, PASSWORD_DEFAULT);
+            //$random_selector_hash = password_hash($random_selector, PASSWORD_DEFAULT);
             $hashedValidator = password_hash($validator, PASSWORD_DEFAULT);
 
             $expiry_date = date("Y-m-d H:i:s", $cookie_expiration_time);
             
             // mark existing token as expired
-            $userToken = $auth->getTokenByUsername($username, 0);
+            /*$userToken = $auth->getTokenByUsername($username, 0);
             if (! empty($userToken[0]["id"])) {
                 $auth->markAsExpired($userToken[0]["id"]);
-            }
+            }*/
 
             $auth->deleteAuthToken($userid);
             
             // Insert new token
             // Insert new token
-            $auth->insertToken($username, $random_password_hash, $random_selector_hash, $expiry_date);
+            //$auth->insertToken($username, $random_password_hash, $random_selector_hash, $expiry_date);
             $auth->insertAuthToken($userid,$hashedValidator,$selector,$expiry_date);
         } else {
             $util->clearAuthCookie();
@@ -140,7 +140,7 @@ body {
         </div>
         <div>
             <input name="member_name" type="text"
-                value="<?php if(isset($_COOKIE["member_login"])) { echo $_COOKIE["member_login"]; } ?>"
+                value="<?php if(isset($_POST["member_name"])) { echo $_POST["member_name"]; } ?>"
                 class="input-field">
         </div>
     </div>
@@ -150,14 +150,14 @@ body {
         </div>
         <div>
             <input name="member_password" type="password"
-                value="<?php if(isset($_COOKIE["member_password"])) { echo $_COOKIE["member_password"]; } ?>"
+                value=""
                 class="input-field">
         </div>
     </div>
     <div class="field-group">
         <div>
             <input type="checkbox" name="remember" id="remember"
-                <?php if(isset($_COOKIE["member_login"])) { ?> checked
+                <?php if(isset($_COOKIE["selector"])) { ?> checked
                 <?php } ?> /> <label for="remember-me">Remember me</label>
         </div>
     </div>
