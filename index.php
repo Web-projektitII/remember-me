@@ -73,11 +73,16 @@ if (! empty($_POST["login"])) {
             if (! empty($userToken[0]["id"])) {
                 $auth->markAsExpired($userToken[0]["id"]);
             }
+
+            $auth->deleteAuthToken($userid);
+            
+            // Insert new token
             // Insert new token
             $auth->insertToken($username, $random_password_hash, $random_selector_hash, $expiry_date);
             $auth->insertAuthToken($userid,$hashedValidator,$selector,$expiry_date);
         } else {
             $util->clearAuthCookie();
+            $auth->deleteAuthToken($userid);
         }
         $util->redirect("dashboard.php");
     } else {

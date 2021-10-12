@@ -59,17 +59,15 @@ class DBController {
         }
     
     function insert($query, $param_type, $param_value_array) {
-
         $sql = $this->conn->prepare($query);
-        debuggeri(__METHOD__.",conn:".is_object($sql) ? "sql" : "tyhjä");
-        debuggeri(__METHOD__.",$query,$param_type,".var_export($param_value_array,true));
+        //debuggeri(__METHOD__.",$query,$param_type,".var_export($param_value_array,true));
         $this->bindQueryParams($sql, $param_type, $param_value_array);
         $sql->execute();
     }
     
     function update($query, $param_type, $param_value_array) {
         $sql = $this->conn->prepare($query);
-        debuggeri(__METHOD__.",$query");
+        //debuggeri(__METHOD__.",$query");
         $this->bindQueryParams($sql, $param_type, $param_value_array);
         $sql->execute();
         }

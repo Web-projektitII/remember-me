@@ -14,7 +14,15 @@ class Auth {
 	    $result = $db_handle->runQuery($query, 'si', array($username, $expired));
 	    return $result;
     }
-    
+
+    function getAuthTokenByUserid($userid) {
+        $db_handle = new DBController();
+        $query = "Select * from auth_tokens where userid = ?";
+        $result = $db_handle->runQuery($query, 'i', array($userid));
+        return $result;
+    }
+        
+
     function getAuthTokenBySelector($selector) {
         $db_handle = new DBController();
         $query = "Select * from auth_tokens where selector = ?";
@@ -44,16 +52,11 @@ class Auth {
     return $result;
     }
 
-    function deleteAuthToken($id) {
+    function deleteAuthToken($userid) {
         $db_handle = new DBController();
-        $query = "DELETE FROM auth_tokens WHERE id = ?";
-        $result = $db_handle->update($query, 'i', array($id));
+        $query = "DELETE FROM auth_tokens WHERE userid = ?";
+        $result = $db_handle->update($query, 'i', array($userid));
         return $result;
-    }
-    
-    /* Tämä näyttää olevan väärässä luokassa */
-    /* function update($query) {
-         mysqli_query($this->conn,$query);
-    }*/
-}
+        }
+   }
 ?>
