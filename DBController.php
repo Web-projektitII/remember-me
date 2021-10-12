@@ -1,8 +1,13 @@
 <?php
+define('DB','konditoria');
+include('debuggeri.php');
+include('db_functions.php');
+include('posti.php');
+
 class DBController {
 	private $host = "localhost";
 	private $user = "root";
-	private $password = "test";
+	private $password = "jukka1";
 	private $database = "db_auth";
 	private $conn;
 	
@@ -12,7 +17,8 @@ class DBController {
 	
 	function connectDB() {
 		$conn = mysqli_connect($this->host,$this->user,$this->password,$this->database);
-		return $conn;
+        debuggeri(__METHOD__.",database:".$this->database);
+        return $conn;
 	}
 	
     function runBaseQuery($query) {
@@ -45,9 +51,9 @@ class DBController {
     }
     
     function bindQueryParams($sql, $param_type, $param_value_array) {
-        $param_value_reference[] = & $param_type;
+        $param_value_reference[] = &$param_type;
         for($i=0; $i<count($param_value_array); $i++) {
-            $param_value_reference[] = & $param_value_array[$i];
+            $param_value_reference[] = &$param_value_array[$i];
         }
         call_user_func_array(array(
             $sql,
